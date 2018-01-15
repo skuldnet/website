@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="104px" height="102px" viewBox="0 0 104 102" enable-background="new 0 0 104 102" xml:space="preserve">
+<radialGradient id="SVGID_1_" cx="100.0498" cy="5.5972" r="138.7224" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#C055A0"/>
+	<stop  offset="0.3587" style="stop-color:#70519A"/>
+	<stop  offset="0.6619" style="stop-color:#344E96"/>
+	<stop  offset="0.8834" style="stop-color:#0E4D94"/>
+	<stop  offset="1" style="stop-color:#004C93"/>
+</radialGradient>
+<path fill="url(#SVGID_1_)" d="M30.978,91.394c19.937,13.924,43.791,11.896,56.228-3.551c10.218-12.691,14.151-26.451,15.55-41.701
+	c2.764-30.169-18.401-42.17-36.686-44.685C44.809-1.464,12.042,9.713,3.51,31.796C-4.921,53.625,8.802,75.906,30.978,91.394z"/>
+</svg>
