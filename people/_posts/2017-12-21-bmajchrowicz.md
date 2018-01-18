@@ -20,8 +20,8 @@ Research interests:
 – intentional binding
 – sensory substitution
 – cognition in schizophrenia and psychosis
-- enactive, sensorimotor and phenomenological approaches
-- philosophy of psychology & mind
+– enactive, sensorimotor and phenomenological approaches
+– philosophy of psychology & mind
 
 
 

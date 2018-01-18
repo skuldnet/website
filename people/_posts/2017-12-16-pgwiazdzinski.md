@@ -15,10 +15,10 @@ I'm an interdisciplinary researcher with a background in philosophy and cognitiv
 
 Research interest:
 – neurophenomenology 
-– cognitive Science
-– philosophy of Mind 
-– enactive / embodied / extended / embedded Cognition 
-– sensory Substitution
+– cognitive science
+– philosophy of mind 
+– enactive / embodied / extended / embedded cognition 
+– sensory substitution
 
     
     
