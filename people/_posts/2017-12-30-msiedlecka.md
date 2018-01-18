@@ -13,8 +13,7 @@ Post-doc in the Institute of Psychology, Jagiellonian University.
 I am mainly interested in metacognition and how metacognitive feelings arise.
 
 Research interests:
-– subjective measures of consciousness
-– metacognitive awareness
-– the role of emotion in metacognition
-– bodily awareness
-
+â€“ subjective measures of consciousness
+â€“ metacognitive awareness
+â€“ the role of emotion in metacognition
+â€“ bodily awareness
