@@ -16,11 +16,11 @@ PhD student in the Institute of Psychology, Jagiellonian University.
 I am interested in scientific study of consciousness, its relation to attention and working memory and neural underpinnings of these processes.
 
 Research interests:
-- visual awareness
-- relationship between attention and consciousness
-- relationship between working memory and consciousness
-- left hemisphere interpreter
-- binocular rivalry
+– visual awareness
+– relationship between attention and consciousness
+– relationship between working memory and consciousness
+– left hemisphere interpreter
+– binocular rivalry
 
     
     

@@ -17,7 +17,7 @@ Secretary of the of the European Society for Cognitive Psychology (ESCoP; 2013-2
 I’m trying to investigate how conscious and unconscious processing differ. Searching for the vague threshold between both I use various behavioral paradigms to show how our consciousness influences the way we perceive and think about the world.
 
 Research interests:
-- embodiment
-- spatial navigation
-- sensory substitution
-- virtual reality
+– embodiment
+– spatial navigation
+– sensory substitution
+– virtual reality

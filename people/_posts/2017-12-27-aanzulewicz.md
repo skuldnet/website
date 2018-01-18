@@ -16,10 +16,10 @@ PhD student in the Institute of Psychology, Jagiellonian University.
 My research focuses on investigating subjective measures of awareness and the nature of transition from unconscious to conscious processing of stimuli.
 
 Research interests:
-- subjective measures of awareness
-- relations between attention and consciousness
-- unconscious cognitive processing
-- attentional control
+– subjective measures of awareness
+– relations between attention and consciousness
+– unconscious cognitive processing
+– attentional control
 
 
     
