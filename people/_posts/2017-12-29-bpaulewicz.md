@@ -1,6 +1,8 @@
 ﻿---
 layout: post
 title:  "Borysław Paulewicz"
+name: Borysław
+surname: Paulewicz
 date:   2017-12-29 09:00:00
 categories: people
 image-file: /images/people/bpaulewicz.jpg

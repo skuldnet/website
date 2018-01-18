@@ -1,9 +1,11 @@
 ﻿---
 layout: post
 title:  "Piotr Falkowski"
+name: Piotr
+surname: Falkowski
 date:   2017-12-13 09:00:00
 categories: people
-image-file: /images/people/pfalkowski.jpg
+image-file: /images/people/default.jpeg
 category: colab
 mail: piotr.falkowski.fm@gmail.com
 website: 
@@ -19,10 +21,3 @@ Research interests:
 – modelling representation in machine using self organizing maps and learning vector quantisation
 – stock market prices prediction using learning vector quantization variants
 – artificial grammars classification by neural networks
-
-
-
-    
-    
-    
-    

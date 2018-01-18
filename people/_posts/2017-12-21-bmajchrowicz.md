@@ -1,6 +1,8 @@
 ﻿---
 layout: post
 title:  "Bartosz Majchrowicz"
+name: Bartosz
+surname: Majchrowicz
 date:   2017-12-21 09:00:00
 categories: people
 image-file: /images/people/bmajchrowicz.jpg
@@ -22,10 +24,3 @@ Research interests:
 – cognition in schizophrenia and psychosis
 – enactive, sensorimotor and phenomenological approaches
 – philosophy of psychology & mind
-
-
-
-    
-    
-    
-    

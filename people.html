@@ -11,11 +11,30 @@ layout: default
     <section class="wrapper style3 container special">
       
       <div class="row posts people">
-        {% for post in site.categories.people %}
+        {% assign clab = site.categories.people | where:"category", "clab" %}
+        {% for post in clab %}
         <div class="4u">
           <a href="#{{post.title}}">
             <span class="image people"><img src="{{post.image-file}}" alt=""></span>
-            <h2 class="people">{{post.title}}</h2>
+            <h2 class="people">{{post.name}}<br />{{post.surname}}</h2>
+            <span class="people">{{post.excerpt}}</span>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+      
+      </section>
+      
+      <section class="wrapper style3 container special">
+      
+      <h2>Collaborators</h2>
+      <div class="row posts people">
+        {% assign colab = site.categories.people | where:"category", "colab" %}
+        {% for post in colab %}
+        <div class="4u">
+          <a href="#{{post.title}}">
+            <span class="image people"><img src="{{post.image-file}}" alt=""></span>
+            <h2 class="people">{{post.name}}<br />{{post.surname}}</h2>
             <span class="people">{{post.excerpt}}</span>
           </a>
         </div>
@@ -29,7 +48,7 @@ layout: default
         <div class="row posts people dialog">
           <div class="4u dialog">
             <span class="image people dialog"><img src="{{post.image-file}}" alt=""></span>
-            <h2 class="people dialog">{{post.title}}</h2>
+            <h2 class="people dialog">{{post.name}}<br />{{post.surname}}</h2>
             <div class="icons">
               {% if post.mail %}
                 <a href="mailto:{{post.mail}}" class="icon circle fa-envelope-o">

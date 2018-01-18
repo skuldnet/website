@@ -1,7 +1,9 @@
 ﻿---
 layout: post
-title:  "Michał Wierzchoń"
-date:   2018-01-06 09:00:00
+title: "Michał Wierzchoń"
+name: Michał
+surname: Wierzchoń
+date: 2018-01-06 09:00:00
 categories: people
 category: clab
 image-file: /images/people/mwierzchon.png

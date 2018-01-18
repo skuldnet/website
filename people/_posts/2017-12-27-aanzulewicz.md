@@ -1,6 +1,8 @@
 ﻿---
 layout: post
 title:  "Anna Anzulewicz"
+name: Anna
+surname: Anzulewicz
 date:   2017-12-27 09:00:00
 categories: people
 image-file: /images/people/aanzulewicz.jpg
@@ -20,9 +22,3 @@ Research interests:
 – relations between attention and consciousness
 – unconscious cognitive processing
 – attentional control
-
-
-    
-    
-    
-    

@@ -1,6 +1,8 @@
 ﻿---
 layout: post
 title:  "Marek Pędziwiatr"
+name: Marek
+surname: Pędziwiatr
 date:   2017-12-12 09:00:00
 categories: people
 image-file: /images/people/mpedziwiatr.jpg
@@ -20,10 +22,3 @@ Research interests:
 – binocular rivalry
 – visual salience
 – objective measures of consciousness
-
-
-
-    
-    
-    
-    

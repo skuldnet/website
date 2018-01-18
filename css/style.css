@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&subset=latin-ext');
 @font-face {
     font-family: break;
     src: url(../fonts/break.ttf);
@@ -883,7 +883,7 @@
 		background-size: auto, auto, auto, 40%, 40%;
 		color: white;
 		cursor: default;
-		padding-top: 6em;
+		padding-top: 4em;
 		text-align: center;
     min-height: 100vh;
     height: auto;
@@ -908,12 +908,10 @@
 			display: inline-block;
 			opacity: 0;
 			padding: 2.4em;
-      position: absolute;
       left: 50%;
-      margin-left: -10em;
-      margin-bottom: 3em;
 			text-align: center;
       width: 20em;
+      margin: 2em 0;
 		}
 
 			#banner .inner header {
