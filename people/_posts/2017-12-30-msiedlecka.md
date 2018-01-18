@@ -17,4 +17,4 @@ Research interests:
 – metacognitive awareness
 – the role of emotion in metacognition
 – bodily awareness
-– cognitive control
+
