@@ -15,12 +15,11 @@ researchgate:
 
 PhD student in the Institute of Psychology, Jagiellonian University.
 
-Currently I am working on sensory substitution, trying to find out how its implementation shapes subjective experience. I am also interested in sense of agency and intentionality, both in health and disease, and in the near future I plan to investigate what external and internal factors influence these phenomena.
-          
+In my work I focus on intentionality and sense of agency research in health and disease. I am investigating what mechanisms undeprin action awareness, as well as what is the relation between different types of agency measures, such as temporal binding, sensory attenuation, and declarative judgements. 
+
 Research interests:
-– sense of agency
-– intentional binding
-– sensory substitution
-– cognition in schizophrenia and psychosis
-– enactive, sensorimotor and phenomenological approaches
-– philosophy of psychology & mind
+– sense of agency 
+– perception in action 
+– bodily awareness cognition in schizophrenia and psychosis 
+– enactive and phenomenological approaches 
+– philosophy of psychology and mind
