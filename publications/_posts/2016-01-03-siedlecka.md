@@ -1,8 +1,6 @@
 ﻿---
 layout: post
 date:   2016-01-03 09:00:00
-pdf: 
-link: 
 categories: book
 ---
 

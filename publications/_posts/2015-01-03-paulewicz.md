@@ -1,7 +1,6 @@
 ﻿---
 layout: post
 date:   2015-01-03 09:00:00
-pdf: 
 link: https://ruj.uj.edu.pl/xmlui/handle/item/20437
 categories: article
 ---

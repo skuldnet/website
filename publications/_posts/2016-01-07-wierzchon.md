@@ -1,7 +1,6 @@
 ﻿---
 layout: post
 date:   2016-01-07 09:00:00
-pdf: 
 link: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0159516
 categories: article
 ---
