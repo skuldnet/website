@@ -1,8 +1,7 @@
----
+﻿---
 layout: post
 title:  "Siedlecka et al. (2018)"
 date:   2018-01-01 09:00:00
-pdf: "/publications/Siedlecka et al. (2018) Rubber hand illusion increases pain caused by electric stimuli.pdf"
 link: http://www.jpain.org/article/S1526-5900(17)30685-5/fulltext
 categories: article
 ---

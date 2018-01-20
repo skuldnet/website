@@ -1,8 +1,7 @@
----
+﻿---
 layout: post
 title:  "Siedlecka et al. (2018)"
 date:   2018-01-01 09:00:00
-pdf: "/publications/Wierzchon (2018) Granice świadomości - fragment.pdf"
 link: https://www.wuj.pl/page,produkt,prodid,2139,strona,Granice_swiadomosci,katid,56.html
 categories: book
 ---
