@@ -10,7 +10,7 @@ layout: default
     <div class="publication-navi style4 container">
       <a href="#Articles" class="scrolly"><h3>Articles</h3></a>
       <a href="#Books" class="scrolly"><h3>Books</h3></a>
-      <a href="#Book chapters" class="scrolly"><h3>Book chapters</h3></a>
+      <a href="#Book-chapters" class="scrolly"><h3>Book chapters</h3></a>
       <a href="#Conference" class="scrolly"><h3>Conference articles</h3></a>
       <a href="#Other" class="scrolly"><h3>Other</h3></a>
     </div>
@@ -19,8 +19,12 @@ layout: default
           {% for post in site.categories.article %}
                 <p class="publication">
                   {{ post.excerpt | remove: '<p>' | remove: '</p>'}}
-                  <a href="{{post.pdf}}"><span class="icon fa-file-pdf-o"></span></a>
-                  <a href="{{post.link}}" target=”_blank”><span class="icon fa-globe"></span></a>
+                  {% if post.pdf %}
+                    <a href="{{post.pdf}}"><span class="icon fa-file-pdf-o"></span></a>
+                  {% endif %}
+                  {% if post.link %}
+                    <a href="{{post.link}}" target=”_blank”><span class="icon fa-globe"></span></a>
+                  {% endif %}
                 </p>
           {% endfor %}
           <a href="#main" id="back-to-top" class="scrolly"><h3>Back to top</h3></a>
@@ -28,6 +32,21 @@ layout: default
     <section id="Books" class="wrapper style4 container">
           <h2>Books:</h2>
               {% for post in site.categories.book %}
+                    <p class="publication">
+                      {{ post.excerpt | remove: '<p>' | remove: '</p>'}}
+                      {% if post.pdf %}
+                        <a href="{{post.pdf}}"><span class="icon fa-file-pdf-o"></span></a>
+                      {% endif %}
+                      {% if post.link %}
+                        <a href="{{post.link}}" target=”_blank”><span class="icon fa-globe"></span></a>
+                      {% endif %}
+                    </p>
+              {% endfor %}
+              <a href="#main" id="back-to-top" class="scrolly"><h3>Back to top</h3></a>
+    </section>
+    <section id="Book-chapters" class="wrapper style4 container">
+          <h2>Book chapters:</h2>
+              {% for post in site.categories.book-chapter %}
                     <p class="publication">
                       {{ post.excerpt | remove: '<p>' | remove: '</p>'}}
                       {% if post.pdf %}
