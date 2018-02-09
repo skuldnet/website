@@ -6,4 +6,4 @@ categories: article
 year: 2017
 ---
 
-Szczepanowski, R., WierzchoÒ, M. i Szuløycki, M. (2017). Neuronal network and awareness measures of post-decision wagering behavior in detecting masked emotional faces. Cognitive Computation, 9(4), 457-467.
+Szczepanowski, R., Wierzcho≈Ñ, M. i Szul≈ºycki, M. (2017). Neuronal network and awareness measures of post-decision wagering behavior in detecting masked emotional faces. Cognitive Computation, 9(4), 457-467.

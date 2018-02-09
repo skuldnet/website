@@ -34,33 +34,41 @@ layout: default
           <a href="#main" id="back-to-top" class="scrolly"><h3>Back to top</h3></a>
     </section>
     <section id="Books" class="wrapper style4 container">
-          <h2>Books:</h2>
-              {% for post in site.categories.book %}
-                    <p class="publication">
-                      {{ post.excerpt | remove: '<p>' | remove: '</p>'}}
-                      {% if post.pdf %}
-                        <a href="{{post.pdf}}"><span class="icon fa-file-pdf-o"></span></a>
-                      {% endif %}
-                      {% if post.link %}
-                        <a href="{{post.link}}" target=”_blank”><span class="icon fa-globe"></span></a>
-                      {% endif %}
-                    </p>
-              {% endfor %}
-              <a href="#main" id="back-to-top" class="scrolly"><h3>Back to top</h3></a>
+      <h2>Books:</h2>
+        {% assign postsByYear = site.categories.book | group_by_exp:"book", "book.date | date: '%Y'"  %}
+        {% for year in postsByYear %}
+            <h3>{{year.name}}</h3>
+            {% for post in year.items %}
+                  <p class="publication">
+                    {{ post.excerpt | remove: '<p>' | remove: '</p>'}}
+                    {% if post.pdf %}
+                      <a href="{{post.pdf}}"><span class="icon fa-file-pdf-o"></span></a>
+                    {% endif %}
+                    {% if post.link %}
+                      <a href="{{post.link}}" target=”_blank”><span class="icon fa-globe"></span></a>
+                    {% endif %}
+                  </p>
+            {% endfor %}
+        {% endfor %}
+        <a href="#main" id="back-to-top" class="scrolly"><h3>Back to top</h3></a>
     </section>
     <section id="Book-chapters" class="wrapper style4 container">
-          <h2>Book chapters:</h2>
-              {% for post in site.categories.book-chapter %}
-                    <p class="publication">
-                      {{ post.excerpt | remove: '<p>' | remove: '</p>'}}
-                      {% if post.pdf %}
-                        <a href="{{post.pdf}}"><span class="icon fa-file-pdf-o"></span></a>
-                      {% endif %}
-                      {% if post.link %}
-                        <a href="{{post.link}}" target=”_blank”><span class="icon fa-globe"></span></a>
-                      {% endif %}
-                    </p>
-              {% endfor %}
-              <a href="#main" id="back-to-top" class="scrolly"><h3>Back to top</h3></a>
+      <h2>Book chapters:</h2>
+        {% assign postsByYear = site.categories.book-chapter | group_by_exp:"book-chapter", "book-chapter.date | date: '%Y'"  %}
+        {% for year in postsByYear %}
+            <h3>{{year.name}}</h3>
+            {% for post in year.items %}
+                  <p class="publication">
+                    {{ post.excerpt | remove: '<p>' | remove: '</p>'}}
+                    {% if post.pdf %}
+                      <a href="{{post.pdf}}"><span class="icon fa-file-pdf-o"></span></a>
+                    {% endif %}
+                    {% if post.link %}
+                      <a href="{{post.link}}" target=”_blank”><span class="icon fa-globe"></span></a>
+                    {% endif %}
+                  </p>
+            {% endfor %}
+        {% endfor %}
+        <a href="#main" id="back-to-top" class="scrolly"><h3>Back to top</h3></a>
     </section>
 </article>
