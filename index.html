@@ -1,6 +1,6 @@
 ---
 layout: landing-page
----		
+---
 		<!-- Main -->
 			<article id="main">
 
@@ -11,16 +11,16 @@ layout: landing-page
 					by scientists working at the Institute of Psychology.</h2>
 					<p>We are all fascinated by the phenomenon of <strong>Consciousness</strong> and its role in human behavior.
 					<br />
-					We investigate a wide range of problems, including the relations between attention and consciousness, 
+					We investigate a wide range of problems, including the relations between attention and consciousness,
 					<br />
 					temporal perception, subjective measures of consciousness and implicit learning.</p>
 				</header>
-					
+
 				<!-- One -->
 					<section class="wrapper style2 container special-alt">
 						<div class="row half">
 							<div class="8u">
-							
+
 								<header>
 									<h2>It is all about <strong>the research</strong>.</h2>
 								</header>
@@ -28,19 +28,19 @@ layout: landing-page
 									through attention, memory, decision making, up to the concept of self.
 									<br />
 									To do that properly, we use a variety of paradigms and measures including behavioral tasks, EEG measurement,
-									fMRI, heart-rate variability, sensory substitution or binocular rivalry. 
+									fMRI, heart-rate variability, sensory substitution or binocular rivalry.
 									<br />
 									If you like to know the details, please follow the link below.
 								</p>
 								<footer>
 									<ul class="buttons">
-										<li><a href="/people.html" class="button">Find Out More</a></li>
+										<li><a href="/projects.html" class="button">Find Out More</a></li>
 									</ul>
 								</footer>
-							
+
 							</div>
 							<div class="4u skel-cell-important">
-							
+
 								<ul class="featured-icons">
 									<li><span class="icon fa-eye"><span class="label">Feature 1</span></span></li>
 									<li><span class="icon fa-volume-up"><span class="label">Feature 2</span></span></li>
@@ -49,16 +49,16 @@ layout: landing-page
 									<li><span class="icon fa-keyboard-o"><span class="label">Feature 5</span></span></li>
 									<li><span class="icon fa-heart"><span class="label">Feature 6</span></span></li>
 								</ul>
-							
-							</div>				
+
+							</div>
 						</div>
 					</section>
-					
+
 				<!-- Two -->
 					<section class="wrapper style1 container special">
 						<div class="row">
 							<div class="4u">
-							
+
 								<section>
 									<span class="icon featured fa-flask"></span>
 									<header>
@@ -68,10 +68,10 @@ layout: landing-page
 										<br />
 									In our daily work we conduct behavioral, neuroimaging and clinical experiments to better understand conscious processes.</p>
 								</section>
-							
+
 							</div>
 							<div class="4u">
-							
+
 								<section>
 									<span class="icon featured fa-graduation-cap"></span>
 									<header>
@@ -79,55 +79,41 @@ layout: landing-page
 									</header>
 									<p>Our members are also actively passing on their knowledge to university students during lectures, seminars and workshops.</p>
 								</section>
-							
+
 							</div>
 							<div class="4u">
-							
+
 								<section>
 									<span class="icon featured fa-comments-o"></span>
 									<header>
 										<h3><strong>COMMUNICATING SCIENCE</strong></h3>
 									</header>
-									<p>We undestand how important it is to get science outside of academia. Through open internet courses, 
+									<p>We undestand how important it is to get science outside of academia. Through open internet courses,
 									magazine articles or lessons for schools we are trying to bring knowledge about the mind closer to the general public.</p>
 								</section>
-							
+
 							</div>
 						</div>
 					</section>
-					
+
 				<!-- Three -->
 					<section class="wrapper style3 container special">
-					
+
 						<header class="major">
 							<h2>Things you might find <strong>interesting</strong></h2>
 						</header>
-						
+
 						<div class="row">
+							{% for new in site.categories.news limit:2 %}
 							<div class="6u">
-							
 								<section>
-									<a href="#" class="image featured"><img src="images/assc22.jpg" alt="" /></a>
+									<a href="{{new.url}}" class="image featured"><img src="{{new.image}}" alt="" /></a>
 									<header>
-										<h3>ASSC22 Conference in Kraków!</h3>
+										<h3>{{new.title}}</h3>
 									</header>
-									<p>We are thrilled and honred to be given the opportunity to organise the biggest consciousness science conference in the world.
-									Hope to see you all in June 2018!</p>
 								</section>
-
 							</div>
-							<div class="6u">
-							
-								<section>
-									<a href="#" class="image featured"><img src="images/ncn_logo.png" alt="" /></a>
-									<header>
-										<h3>C-Lab members with new funding!</h3>
-									</header>
-									<p>In the newest round of funding from the National Science Center, four of our members acquired grants for their research.
-									Congratulations to you all and good luck with those experiments!</p>
-								</section>
-
-							</div>
+							{% endfor %}
 						</div>
 
 						<footer class="major">
@@ -135,14 +121,14 @@ layout: landing-page
 								<li><a href="/news.html" class="button">See More</a></li>
 							</ul>
 						</footer>
-					
+
 					</section>
-					
+
 			</article>
 
 		<!-- CTA -->
 			<section id="cta">
-			
+
 				<header>
 					<h2>Interested in our <strong>research</strong>?</h2>
 					<p>Find out more about the possibilities that C-LAB has to offer!</p>
@@ -153,5 +139,5 @@ layout: landing-page
 						<li><a href="/contact.html" class="button">Collaborate</a></li>
 					</ul>
 				</footer>
-			
+
 			</section>

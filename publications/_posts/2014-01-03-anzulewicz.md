@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 date:   2014-01-03 09:00:00
 link: http://www.studiapsychologiczne.pl/Is-consciousness-a-gradual-phenomenon-How-conscious-is-conscious-knowledge-in-the-artificial-grammar-learning-task-,61840,0,2.html

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 date:   2010-01-02 09:00:00
 link: https://fbc.pionier.net.pl/details/nnlprXp

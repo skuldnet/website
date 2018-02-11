@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+    <article id="main">
+  <header class="special container">
+    <h2 class="post-title">{{ page.title }}</h2>
+    <p class="post-meta">{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <section class="style4 wrapper container">
+    {{ page.content | remove: page.excerpt }}
+  </section>
+
+    <footer>
+        {% if page.previous %}
+        <a href="{{ page.previous.url }}" class="post-prev">&larr; Previous project</a> {% endif %}
+        {% if page.next %}
+        <a href="{{ page.next.url }}" class="post-next">Next project &rarr;</a> {% endif %}
+    </footer>
+</article>

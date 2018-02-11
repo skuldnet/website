@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-date:   2012-01-03 09:00:00 
+date:   2012-01-03 09:00:00
 link: https://charaktery.eu/artykul/oko-swiadomosci
 categories: article
 year: 2012

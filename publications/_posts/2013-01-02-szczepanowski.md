@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 date:   2013-01-02 09:00:00
 link: http://www.sciencedirect.com/science/article/pii/S1053810012002371?via%3Dihub

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "Wierzchoń (2013)"
 date:   2013-01-01 09:00:00

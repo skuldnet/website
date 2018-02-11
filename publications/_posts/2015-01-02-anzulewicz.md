@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 date:   2015-01-02 09:00:00
 link: https://www.sciencedirect.com/science/article/pii/S1053810015001129

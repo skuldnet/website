@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 date:   2010-01-01 09:00:00
 link: https://ruj.uj.edu.pl/xmlui/handle/item/29906
