@@ -10,7 +10,7 @@ mail: marta.siedlecka@uj.edu.pl
 category: clab
 ---
 
-Post-doc in the Institute of Psychology, Jagiellonian University.
+Post-doc at the Institute of Psychology, Jagiellonian University.
 
 I am mainly interested in metacognition and how metacognitive feelings arise.
 

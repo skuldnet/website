@@ -13,7 +13,7 @@ twitter: https://twitter.com/marekpedziwi
 researchgate: https://www.researchgate.net/profile/Marek_Pedziwiatr2
 ---
 
-PhD student in Cardiff University Brain Research Imaging Centre (CUBRIC)
+PhD student at Cardiff University Brain Research Imaging Centre (CUBRIC)
 
 My ongoing collaboration with C-Lab focuses on investigating how vision can be influenced by information from other senses. In our research we use novel stimuli and combine different indicators of conscious experience: eye movements and participants’ responses. Apart from that, I am mainly interested in the role of top-down processes in visual perception. My current research aims to answer the question of how they contribute to control of eye movements in natural scenes viewing.
 
