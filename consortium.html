@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<article id="main">
+    <header class="special container">
+        <span class="icon fa-users"></span>
+        <h2>Skuld<span class="highlight">Net</span> Members</h2>
+    </header>
+
+    <section class="wrapper style3 container special">
+
+      <div class="row posts people">
+        {% for post in site.categories.people %}
+        <div class="4u">
+          <a href="#{{post.title}}">
+            <span class="image people"><img src="{{post.image-file}}" alt=""></span>
+            <h2 class="people">{{post.name}}<br />{{post.surname}}</h2>
+            <span class="people">{{post.excerpt}}</span>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+
+      </section>
+
+    {% for post in site.categories.people %}
+    <div id="{{post.title}}" class="modalDialog">
+      <div class="container">	<a href="#close" title="Close" class="close">X</a>
+        <div class="row posts people dialog">
+          <div class="4u dialog">
+            <span class="image people dialog"><img src="{{post.image-file}}" alt=""></span>
+            <h2 class="people dialog">{{post.name}}<br />{{post.surname}}</h2>
+            <div class="icons">
+              {% if post.mail %}
+                <a href="mailto:{{post.mail}}" class="icon circle fa-envelope-o">
+                </a>
+              {% endif %}
+
+              {% if post.website %}
+                <a href="{{post.website}}" class="icon circle fa-globe">
+                </a>
+              {% endif %}
+
+              {% if post.Twitter %}
+                <a href="{{post.Twitter}}" class="icon circle fa-twitter">
+                </a>
+              {% endif %}
+
+              {% if post.researchgate %}
+                <a href="{{post.researchgate}}" class="icon circle fa-graduation-cap">
+                </a>
+              {% endif %}
+            </div>
+          </div>
+          <div class="8u dialog text">
+              <span class="people dialog">{{post.content}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+</article>

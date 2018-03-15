@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Want to join our lab? <br /> Positions available"
+title:  "Want to join our lab? Positions available"
 date:   2017-08-09 9:00:00
 image: /images/pic01.jpg
 ---
+
 For English-speaking candidates please contact Michał Wierzchoń: michal.wierzchon@uj.edu.pl
 
 Ogłoszenie 1

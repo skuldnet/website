@@ -1,8 +1,9 @@
 @import url("font-awesome.min.css");
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700,900&subset=latin-ext');
 @font-face {
-    font-family: break;
-    src: url(../fonts/break.ttf);
+    font-family: Anders;
+    src: url(../fonts/Anders.ttf);
 }
 
 /*
@@ -15,58 +16,25 @@
 
   @keyframes FadeIn { to {opacity: 1} }
 
-  .logo-orange {
+  #color_path {
+    fill: rgba(204,20,20,1);
     opacity: 0;
-    animation-name: FadeIn;
-    animation-duration: 3s;
-    animation-delay: 1s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
+  	animation-name: FadeIn;
+  	animation-duration: 3s;
+  	animation-delay: 1s;
+  	animation-timing-function: ease-out;
+  	animation-fill-mode: forwards;
   }
 
-  .logo-green {
-    opacity: 0;
-    animation-name: FadeIn;
-    animation-duration: 3s;
-    animation-delay: 1.2s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
+  #logo .text {
+    font-family:Anders;
+    font-size:2em;
+    margin-left:0.5em;
+    vertical-align:middle;
   }
 
-  .logo-purple {
-    opacity: 0;
-    animation-name: FadeIn;
-    animation-duration: 3s;
-    animation-delay: 1.4s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
-  }
-
-  .logo-blue {
-    opacity: 0;
-    animation-name: FadeIn;
-    animation-duration: 3s;
-    animation-delay: 1.6s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
-  }
-
-  .logo-pink {
-    opacity: 0;
-    animation-name: FadeIn;
-    animation-duration: 3s;
-    animation-delay: 1.8s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
-  }
-
-  .logo-yellow {
-    opacity: 0;
-    animation-name: FadeIn;
-    animation-duration: 3s;
-    animation-delay: 2s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
+  .highlight {
+    color: rgba(204,20,20,1);
   }
 
 	body, #skel-layers-wrapper {
@@ -87,8 +55,8 @@
 	}
 
 	body, input, select, textarea {
-		color: #7c8081;
-		font-family: 'Lato', sans-serif;
+		color: rgba(41, 49, 50, 1);
+		font-family: 'Josefin Sans', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
@@ -204,6 +172,7 @@
 
 		header.special h2 {
 			margin-bottom: 0;
+      font-weight: 700;
 		}
 
 		header.special h2 + p {
@@ -373,59 +342,68 @@
 				top: -0.2em;
 			}
 
-			.icon.circle.fa-twitter {
-				background: rgba(112, 174, 205, 1);
-				color: white;
-			}
+      .icon.circle.fa-twitter {
+        background: rgba(112, 174, 205, 1);
+        color: white;
+      }
 
-				.icon.circle.fa-twitter:hover {
-					background: rgba(112, 174, 205, 0.7);
-				}
+      .icon.circle.fa-twitter:hover {
+        background: rgba(112, 174, 205, 0.7);
+      }
 
-			.icon.circle.fa-graduation-cap {
-				background: rgba(181, 204, 52, 1);
-				color: white;
-			}
+      .icon.circle.fa-at {
+        background: rgba(129, 61, 138, 1);
+        color: white;
+      }
 
-				.icon.circle.fa-graduation-cap:hover {
-					background: rgba(181, 204, 52, 1);
-				}
+      .icon.circle.fa-at:hover {
+        background: rgba(129, 61, 138, 0.7);
+      }
 
-			.icon.circle.fa-globe {
-				background: rgba(239, 128, 34, 1);
-				color: white;
-			}
+      .icon.circle.fa-graduation-cap {
+        background: rgba(181, 204, 52, 1);
+        color: white;
+      }
 
-				.icon.circle.fa-globe:hover {
-					background: rgba(239, 128, 34, 0.7);
-				}
+      .icon.circle.fa-graduation-cap:hover {
+        background: rgba(181, 204, 52, 1);
+      }
 
-			.icon.circle.fa-github {
-				background: rgba(36, 41, 46, 1);
-				color: white;
-			}
+      .icon.circle.fa-globe {
+        background: rgba(239, 128, 34, 1);
+        color: white;
+      }
 
-				.icon.circle.fa-github:hover {
-					background: rgba(36, 41, 46, 0.7);
-				}
+      .icon.circle.fa-globe:hover {
+        background: rgba(239, 128, 34, 0.7);
+      }
 
-			.icon.circle.fa-envelope-o {
-				background: rgba(129, 61, 138, 1);
-				color: white;
-			}
+      .icon.circle.fa-github {
+        background: rgba(36, 41, 46, 1);
+        color: white;
+      }
 
-				.icon.circle.fa-envelope-o:hover {
-					background: rgba(129, 61, 138, 0.7);
-				}
+      .icon.circle.fa-github:hover {
+        background: rgba(36, 41, 46, 0.7);
+      }
+
+      .icon.circle.fa-envelope-o {
+        background: rgba(129, 61, 138, 1);
+        color: white;
+      }
+
+      .icon.circle.fa-envelope-o:hover {
+        background: rgba(129, 61, 138, 0.7);
+      }
 
       .icon.circle.fa-facebook {
-				background: rgba(66, 103, 178, 1);
-				color: white;
-			}
+        background: rgba(66, 103, 178, 1);
+        color: white;
+      }
 
-				.icon.circle.fa-facebook:hover {
-					background: rgba(66, 103, 178, 0.7);
-				}
+      .icon.circle.fa-facebook:hover {
+        background: rgba(66, 103, 178, 0.7);
+      }
 
 		.icon.featured {
 			cursor: default;
@@ -733,6 +711,7 @@
 					line-height: 1em;
 					padding: 0.6em 0.75em;
 					text-decoration: none;
+          font-size: 1.2em;
 				}
 
 				#header nav ul li input[type="button"],
@@ -875,12 +854,12 @@
 	@keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
 
 	#banner {
-		background-attachment: scroll, scroll, scroll, fixed, fixed;
+		background-attachment: scroll;
 		background-color: rgb(232, 232, 232);
-		background-image: url("images/dark-bl.svg"), url("images/dark-br.svg"), url("images/noise.png"), url("../images/brain.png"), url("../images/dots.png");
-		background-position: bottom left, bottom right, top left, 110% 50%, top left;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat, repeat;
-		background-size: auto, auto, auto, 40%, 40%;
+		background-image: url("../images/tree20.jpg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 100vw;
 		color: white;
 		cursor: default;
 		padding-top: 4em;
@@ -903,12 +882,12 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(28, 28, 23, 0.5);
-			color: white;
+			background: rgba(255, 255, 255, 0.97);
+			color: black;
 			opacity: 0;
 			padding: 2em;
       left: 50%;
-      width: 21em;
+      width: 23em;
       margin: 2em 0;
       display: flex;
       flex-direction: column;
@@ -917,20 +896,20 @@
 
       #banner .logo {
         padding: 0 0.5em 0.5em 0.5em;
-        width: 15em;
+        width: 12em;
       }
 
 			#banner .inner header {
-				border-bottom: solid 2px;
-				border-top: solid 2px;
-				margin: 0 0 1em 0;
+				border-bottom: double;
+				border-top: double;
+				margin: 1em 0 1em 0;
 				padding: 3px 0 3px 0;
 			}
 
 				#banner .inner header h2 {
-          font-family: break;
-          font-size: 3em;
-					font-weight: 300;
+          font-family: Anders;
+          font-size: 2.5em;
+					font-weight: bold;
 					letter-spacing: 0.2em;
 					margin: 0;
 					padding-left: 0.05em;
@@ -955,13 +934,19 @@
 				margin: 1em 0 0 0;
 			}
 
+      #banner .inner footer .button {
+				font-size: 1em;
+        line-height: 3em;
+        min-width: 15em;
+			}
+
 /* Main */
 
 	#main {
-		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
-		background-position: top left, top right, bottom left, bottom right;
+		background-image: url("../images/tree97.jpg");
+		background-position: center;
+    background-attachment: fixed;
 		background-repeat: no-repeat;
-		background-size: 25em;
 		padding: 6em 0;
 	}
 
@@ -1006,8 +991,8 @@
 /* Footer */
 
 	#footer {
-		background: rgba(129, 204, 236, 0.1);
-		color: #7c8081;
+		background: rgba(41, 49, 50, 0.9);
+		color: rgba(207, 213, 214, 1);
 		padding: 4em 5em 4em 5em;
 		text-align: center;
 	}
@@ -1324,6 +1309,15 @@ h2.people {
     color: white;
     margin: auto;
     font-size: 1em;
+}
+
+.newslink {
+  color: rgba(41, 49, 50, 1);
+}
+
+.newstitle{
+  font-weight: 400;
+  color: rgba(45, 114, 143, 1);
 }
 
 /* PROJECTS */

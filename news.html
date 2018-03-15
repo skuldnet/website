@@ -6,7 +6,7 @@ layout: default
 <article id="main">
     <header class="special container">
         <span class="icon fa-newspaper-o"></span>
-        <h2>C-LAB <strong>NEWS</strong></h2>
+        <h2>Skuld<span class="highlight">Net</span> NEWS</h2>
     </header>
     <section class="wrapper style4 container">
       {% assign postsByYearMonth = site.categories.news | group_by_exp:"news", "news.date | date: '%Y'"  %}
@@ -14,14 +14,17 @@ layout: default
         <h3>{{ yearMonth.name }}</h3>
         <div class="row news">
           {% for news in yearMonth.items %}
-          <div class="6u">
+          <div class="4u">
             <a href="{{news.url}}" class="image featured">
               <div class="gallery-image">
                 <img src="{{news.image}}" alt="" />
-                <div class="gallery-text">
-                  <h3>{{news.title}}</h3>
-                </div>
               </div>
+            </a>
+          </div>
+          <div class="8u">
+            <a href="{{news.url}}" class="newslink">
+              <h3 class="newstitle">{{news.title}}</h3>
+              {{news.excerpt}}
             </a>
           </div>
           {% endfor %}
