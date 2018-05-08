@@ -13,10 +13,8 @@ twitter:
 researchgate: "https://www.researchgate.net/profile/Kim_Mouridsen"
 ---
 
-Associate professor at Aarhus University. Managing Director and Founder Cercare Medical.
+Associate professor at Aarhus University. Managing Director and Founder [Cercare Medical.](https://cercare-medical.com/).
 
-Head of the [Neuroinformatics group] (http://cfin.au.dk/cfinmindlab-labs-research-groups/neuroinformatics/) at the Center of Functionally Integrative Neuroscience at Aarhus University. 
-
-[Cercare Medical.](https://cercare-medical.com/)
+Head of the [Neuroinformatics group] (http://cfin.au.dk/cfinmindlab-labs-research-groups/neuroinformatics/) at the Center of Functionally Integrative Neuroscience at Aarhus University.
 
 Research interests: Clinical Decision support, Artificial Intelligence, Statistics, Neuroimaging, Consciousness
