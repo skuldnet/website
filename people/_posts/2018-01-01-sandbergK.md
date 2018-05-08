@@ -13,6 +13,8 @@ twitter:
 researchgate:
 ---
 
-Associate professor at Aarhus University and Aarhus University Hospital. Head of the [Perception and Neuroarchitectural Mapping Group](http://cfin.au.dk/cfinmindlab-labs-research-groups/perception-and-neuroarchitectural-mapping-group/) at the Center of Functionally Integrative Neuroscience at Aarhus University.
+Associate professor at Aarhus University and Aarhus University Hospital.
+
+Head of the [Perception and Neuroarchitectural Mapping Group](http://cfin.au.dk/cfinmindlab-labs-research-groups/perception-and-neuroarchitectural-mapping-group/) at the Center of Functionally Integrative Neuroscience at Aarhus University.
 
 Research interests: Consciousness (including disorders of consciousness), perception, basic and clinical application of machine learning, MRI based neuroarchitectural mapping.
