@@ -47,7 +47,7 @@
 		}
 
 		.wrapper.style2 {
-			background-size: 15em;
+			background-size: cover;
 		}
 
 		.wrapper.style4 {
@@ -57,18 +57,16 @@
 /* Banner */
 
 	#banner {
-		background-size: 15em, 15em, auto, cover;
+		background-size: cover;
 	}
 
 /* Main */
 
 	#main {
-		background-size: 15em;
 	}
 
 /* CTA */
 
 	#cta {
-		background-size: 15em, 15em, auto, cover;
 		padding: 3em;
 	}

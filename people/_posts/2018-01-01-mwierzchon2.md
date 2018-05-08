@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Michał Wierzchoń"
+title: "Michał Wierzchoń 2"
 name: "Michał "
-surname: Wierzchoń
+surname: Wierzchoń 2
 date: 2018-01-06 09:00:00
 categories: people
 category: clab

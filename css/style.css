@@ -1218,6 +1218,198 @@ h2.people {
   padding-bottom: 2em;
 }
 
+/* Labs */
+.lab {
+  color: rgba(28, 28, 23, 1);
+}
+
+h2.lab {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.image.logo.lab + h2 {
+  font-weight: bold;
+}
+
+.image.lab {
+  display: block;
+  margin: 1em 0 2em 0;
+  text-align: center;
+}
+
+.image.lab.dialog {
+  margin: 4em 0 1em 0;
+}
+
+.image.lab img {
+  display: inline-block;
+  width: 10em;
+}
+
+.lab > p {
+  font-size: 0.9em;
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.row.posts.lab a {
+  border: 0;
+  color: rgba(28, 28, 23, 1);
+}
+
+.lab.dialog > p:first-of-type {
+  font-size: 0.9em;
+  padding-top: 2em;
+}
+
+.row.posts.lab {
+  display: flex;
+  flex-flow: wrap;
+  margin-bottom: 2em;
+}
+
+.row.posts.lab > div {
+  padding-bottom: 2em;
+}
+
+.row.posts.lab > .small {
+  padding: 10px 0 0 40px;
+}
+
+.image.people.lab {
+  text-align: center;
+  margin: 0;
+}
+
+.image.people.lab img {
+  width: 100%;
+}
+
+h2.people.lab {
+  font-size: 0.75em;
+}
+
+.pages {
+  text-decoration: none;
+  border: 0;
+  color: rgba(41, 49, 50, 1);
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#sitemem {
+  position: relative;
+  margin-bottom: 0;
+  padding: 0 0 2.6em 0;
+  background: linear-gradient(to right, white 50%, lightgrey 50%);
+  border-left: 1px dashed lightgrey;
+  border-right: 0;
+}
+
+#sitemem::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  left: 0%;
+  border-top: 1px dashed lightgrey;
+}
+
+.sit {
+  width: 50%;
+  float: left;
+  padding: 1em 0 0.5em 0;
+  /* background-color: red; */
+  line-height: 1em;
+  border-right: 1px dashed lightgrey;
+
+}
+
+.mem {
+  width: 50%;
+  float: right;
+  padding: 1em 0 0.5em 0;
+  /* background-color: green; */
+  line-height: 1em;
+}
+
+#labpage {
+  position: relative;
+  margin-top: 0;
+  border: 1px dashed lightgrey;
+  border-top: 0;
+}
+
+#labpage::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  left: 50%;
+  border-top: 1px dashed lightgrey;
+}
+
+#mempage {
+  position: relative;
+  display: none;
+  margin-top: 0;
+  border: 1px dashed lightgrey;
+  border-top: 0;
+}
+
+#mempage::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 50%;
+  border-top: 1px dashed lightgrey;
+}
+
+#sites {
+  position: fixed;
+}
+#members {
+  position: fixed;
+}
+
+#sites:target ~ #labpage{
+  display: block;
+}
+#sites:target ~ #mempage{
+  display: none;
+}
+
+#members:target ~ #mempage{
+  display: block;
+}
+#members:target ~ #labpage{
+  display: none;
+}
+
+
+#sites:target ~ #sitemem{
+  background: linear-gradient(to right, white 50%, lightgrey 50%);
+  border-left: 1px dashed lightgrey;
+  border-right: 0;
+}
+#members:target ~ #sitemem{
+  background: linear-gradient(to right, lightgrey 50%, white 50%);
+  border-left: 0;
+  border-right: 1px dashed lightgrey;
+}
+
+#sites:target ~ #sitemem::before{
+  left: 0%;
+}
+#members:target ~ #sitemem::before{
+  left: 50%;
+}
+
 /* Modals */
 .modalDialog {
     position: fixed;
