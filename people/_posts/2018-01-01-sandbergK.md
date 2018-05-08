@@ -9,8 +9,8 @@ category: perception
 image-file: /images/people/ksandberg.jpg
 mail: krissand@rm.dk
 website: "http://pure.au.dk/portal/en/persons/id(c3f61c86-7954-4726-87ed-813942f07dbb).html"
-twitter:
-researchgate:
+twitter: "https://twitter.com/krsandberg"
+researchgate: "https://www.researchgate.net/profile/Kristian_Sandberg"
 ---
 
 Associate professor at Aarhus University and Aarhus University Hospital.
