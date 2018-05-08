@@ -5,7 +5,7 @@ name: "Michał "
 surname: Wierzchoń
 date: 2018-01-06 09:00:00
 categories: people
-category: clab
+category: jagiellonian
 image-file: /images/people/mwierzchon.png
 mail: michal.wierzchon@uj.edu.pl
 website: http://www.psychologia.uj.edu.pl/michal-wierzchon
