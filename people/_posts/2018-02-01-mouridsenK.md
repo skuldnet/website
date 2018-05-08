@@ -10,7 +10,7 @@ image-file: /images/people/mouridsen.jpg
 mail: KIM@CFIN.AU.DK
 website: "https://cercare-medical.com/kim-mouridsen/"
 twitter:
-researchgate:"https://www.researchgate.net/profile/Kim_Mouridsen"
+researchgate: "https://www.researchgate.net/profile/Kim_Mouridsen"
 ---
 
 --
