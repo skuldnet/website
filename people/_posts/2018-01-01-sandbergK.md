@@ -4,13 +4,14 @@ title: "Kristian Sandberg"
 name: "Kristian "
 surname: Sandberg
 date: 2018-03-01 09:00:00
-categories: people
+categories: people chair
 category: cfin
 image-file: /images/people/ksandberg.jpg
 mail: krissand@rm.dk
 website: "http://pure.au.dk/portal/en/persons/id(c3f61c86-7954-4726-87ed-813942f07dbb).html"
 twitter: "https://twitter.com/krsandberg"
 researchgate: "https://www.researchgate.net/profile/Kristian_Sandberg"
+scholar: https://scholar.google.com/citations?user=qrF6y-kAAAAJ&hl=en&oi=ao
 ---
 
 Associate professor at Aarhus University and Aarhus University Hospital.

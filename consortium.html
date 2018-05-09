@@ -1,20 +1,35 @@
 ---
 layout: default
 ---
+<script>
+    function TraceAddress() {
+      setTimeout(function(){
+        var adr = window.location.hash;
+        if (adr=="#members"){
+          lista = document.getElementsByClassName("close");
+          var i = lista.length;
 
+          while(i--){
+            lista[i].href = adr;
+          }
+        }
+      }, 100);
+    }
+</script>
 
 <article id="main">
     <div id="sites"></div>
     <div id="members"></div>
+    <div id="close"></div>
     <header class="special container">
-        <span class="icon fa-users"></span>
-        <h2>Skuld<span class="highlight">Net</span> Members</h2>
+        <span class="icon fa fa-users"></span>
+        <h2>Skuld<span class="highlight">Net</span> Network</h2>
     </header>
 
 
     <section class="wrapper style3 container special" id="sitemem">
-        <div class="sit"><a id="sitpage" class="pages" href="#sites"> SITES </a></div>
-        <div class="mem"><a class="pages" href="#members"> PEOPLE </a></div>
+        <div class="sit"><a id="sitpage" class="pages" href="#sites", onclick="TraceAddress()"> SITES </a></div>
+        <div class="mem"><a class="pages" href="#members", onclick="TraceAddress()"> PEOPLE </a></div>
     </section>
 
     <section class="wrapper style3 container special" id="labpage">
@@ -25,6 +40,7 @@ layout: default
             <a href="#{{post.title}}">
               <span class="image logo lab"><img src="{{post.image-file}}" alt=""></span>
               <h2 class="lab">{{post.title}}</h2>
+              <span>{{post.location}}</span>
             </a>
           </div>
 
@@ -39,7 +55,7 @@ layout: default
             {% capture labid %}{{post.code}}{% endcapture %}
             <div class="row posts lab">
               {% for person in site.categories[labid] %}
-              <div class="2u small">
+              <div class="2u small persons">
                 <a href="#{{person.title}}">
                   <span class="image people lab"><img src="{{person.image-file}}" alt=""></span>
                   <h2 class="people lab">{{person.name}}<br />{{person.surname}}</h2>
@@ -59,8 +75,22 @@ layout: default
     <!-- Section with all members side by side -->
     <section class="wrapper style3 container special" id="mempage">
 
+      <div class="row posts people" style="flex-flow: column; align-items: center; margin-bottom: 3em;">
+        <h2 style="text-align: center; font-weight: bold;">CHAIR</h2><br/>
+        {% for post in site.categories.chair %}
+        <div class="4u">
+          <a href="#{{post.title}}">
+            <span class="image people"><img src="{{post.image-file}}" alt=""></span>
+            <h2 class="people">{{post.name}}<br />{{post.surname}}</h2>
+            <span class="people">{{post.excerpt}}</span>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+
       <div class="row posts people">
-        {% for post in site.categories.people %}
+        <h2 style="text-align: center; font-weight: bold; width: 100%">MEMBERS</h2><br/>
+        {% for post in site.categories.member %}
         <div class="4u">
           <a href="#{{post.title}}">
             <span class="image people"><img src="{{post.image-file}}" alt=""></span>
@@ -77,29 +107,34 @@ layout: default
     <!-- Individual pages of people -->
     {% for post in site.categories.people %}
     <div id="{{post.title}}" class="modalDialog">
-      <div class="container">	<a href="#close" title="Close" class="close">X</a>
+      <div class="container">	<a href="#sites" title="Close" class="close">X</a>
         <div class="row posts people dialog">
           <div class="4u dialog">
             <span class="image people dialog"><img src="{{post.image-file}}" alt=""></span>
             <h2 class="people dialog">{{post.name}}<br />{{post.surname}}</h2>
             <div class="icons">
               {% if post.mail %}
-                <a href="mailto:{{post.mail}}" class="icon circle fa-envelope-o">
+                <a href="mailto:{{post.mail}}" class="icon circle fa fa-envelope-o">
                 </a>
               {% endif %}
 
               {% if post.website %}
-                <a href="{{post.website}}" class="icon circle fa-globe">
+                <a href="{{post.website}}" class="icon circle fa fa-globe">
                 </a>
               {% endif %}
 
               {% if post.Twitter %}
-                <a href="{{post.Twitter}}" class="icon circle fa-twitter">
+                <a href="{{post.Twitter}}" class="icon circle fa fa-twitter">
                 </a>
               {% endif %}
 
               {% if post.researchgate %}
-                <a href="{{post.researchgate}}" class="icon circle fa-graduation-cap">
+                <a href="{{post.researchgate}}" class="icon circle ai ai-researchgate">
+                </a>
+              {% endif %}
+
+              {% if post.scholar %}
+                <a href="{{post.scholar}}" class="icon circle ai ai-google-scholar ai-4x">
                 </a>
               {% endif %}
             </div>

@@ -1,4 +1,5 @@
 @import url("font-awesome.min.css");
+@import url("academicons.min.css");
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700,900&subset=latin-ext');
 @font-face {
@@ -313,7 +314,6 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -360,12 +360,12 @@
         background: rgba(129, 61, 138, 0.7);
       }
 
-      .icon.circle.fa-graduation-cap {
+      .icon.circle.ai-researchgate {
         background: rgba(181, 204, 52, 1);
         color: white;
       }
 
-      .icon.circle.fa-graduation-cap:hover {
+      .icon.circle.ai-researchgate:hover {
         background: rgba(181, 204, 52, 1);
       }
 
@@ -403,6 +403,15 @@
 
       .icon.circle.fa-facebook:hover {
         background: rgba(66, 103, 178, 0.7);
+      }
+
+      .icon.circle.ai-google-scholar {
+        background: rgba(128, 204, 237, 1);
+        color: white;
+      }
+
+      .icon.circle.ai-google-scholar:hover {
+        background: rgba(128, 204, 237, 0.7);
       }
 
 		.icon.featured {
