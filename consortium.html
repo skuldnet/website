@@ -1,149 +1,71 @@
----
-layout: default
----
-<script>
-    function TraceAddress() {
-      setTimeout(function(){
-        var adr = window.location.hash;
-        if (adr=="#members"){
-          lista = document.getElementsByClassName("close");
-          var i = lista.length;
-
-          while(i--){
-            lista[i].href = adr;
-          }
-        }
-      }, 100);
-    }
-</script>
-
-<article id="main">
-    <div id="sites"></div>
-    <div id="members"></div>
-    <div id="close"></div>
-    <header class="special container">
-        <span class="icon fa fa-users"></span>
-        <h2>Skuld<span class="highlight">Net</span> Network</h2>
-    </header>
-
-
-    <section class="wrapper style3 container special" id="sitemem">
-        <div class="sit"><a id="sitpage" class="pages" href="#sites", onclick="TraceAddress()"> SITES </a></div>
-        <div class="mem"><a class="pages" href="#members", onclick="TraceAddress()"> PEOPLE </a></div>
-    </section>
-
-    <section class="wrapper style3 container special" id="labpage">
-
-    {% for post in site.categories.labs %}
-        <div class="row posts lab">
-          <div class="3u">
-            <a href="#{{post.title}}">
-              <span class="image logo lab"><img src="{{post.image-file}}" alt=""></span>
-              <h2 class="lab">{{post.title}}</h2>
-              <span>{{post.location}}</span>
-            </a>
-          </div>
-
-          <div class="9u">
-            <div class="row posts lab">
-              <a href="#{{post.title}}">
-                <span class="lab">{{post.excerpt}}</span>
-                <h3> READ MORE </h3>
-              </a>
-            </div>
-
-            {% capture labid %}{{post.code}}{% endcapture %}
-            <div class="row posts lab">
-              {% for person in site.categories[labid] %}
-              <div class="2u small persons">
-                <a href="#{{person.title}}">
-                  <span class="image people lab"><img src="{{person.image-file}}" alt=""></span>
-                  <h2 class="people lab">{{person.name}}<br />{{person.surname}}</h2>
-                </a>
-              </div>
-              {% endfor %}
-            </div>
-          </div>
-
-        </div>
-
-    {% endfor %}
-
-    </section>
-
-
-    <!-- Section with all members side by side -->
-    <section class="wrapper style3 container special" id="mempage">
-
-      <div class="row posts people" style="flex-flow: column; align-items: center; margin-bottom: 3em;">
-        <h2 style="text-align: center; font-weight: bold;">CHAIR</h2><br/>
-        {% for post in site.categories.chair %}
-        <div class="4u">
-          <a href="#{{post.title}}">
-            <span class="image people"><img src="{{post.image-file}}" alt=""></span>
-            <h2 class="people">{{post.name}}<br />{{post.surname}}</h2>
-            <span class="people">{{post.excerpt}}</span>
-          </a>
-        </div>
-        {% endfor %}
-      </div>
-
-      <div class="row posts people">
-        <h2 style="text-align: center; font-weight: bold; width: 100%">MEMBERS</h2><br/>
-        {% for post in site.categories.member %}
-        <div class="4u">
-          <a href="#{{post.title}}">
-            <span class="image people"><img src="{{post.image-file}}" alt=""></span>
-            <h2 class="people">{{post.name}}<br />{{post.surname}}</h2>
-            <span class="people">{{post.excerpt}}</span>
-          </a>
-        </div>
-        {% endfor %}
-      </div>
-
-      </section>
-
-
-    <!-- Individual pages of people -->
-    {% for post in site.categories.people %}
-    <div id="{{post.title}}" class="modalDialog">
-      <div class="container">	<a href="#sites" title="Close" class="close">X</a>
-        <div class="row posts people dialog">
-          <div class="4u dialog">
-            <span class="image people dialog"><img src="{{post.image-file}}" alt=""></span>
-            <h2 class="people dialog">{{post.name}}<br />{{post.surname}}</h2>
-            <div class="icons">
-              {% if post.mail %}
-                <a href="mailto:{{post.mail}}" class="icon circle fa fa-envelope-o">
-                </a>
-              {% endif %}
-
-              {% if post.website %}
-                <a href="{{post.website}}" class="icon circle fa fa-globe">
-                </a>
-              {% endif %}
-
-              {% if post.Twitter %}
-                <a href="{{post.Twitter}}" class="icon circle fa fa-twitter">
-                </a>
-              {% endif %}
-
-              {% if post.researchgate %}
-                <a href="{{post.researchgate}}" class="icon circle ai ai-researchgate">
-                </a>
-              {% endif %}
-
-              {% if post.scholar %}
-                <a href="{{post.scholar}}" class="icon circle ai ai-google-scholar ai-4x">
-                </a>
-              {% endif %}
-            </div>
-          </div>
-          <div class="8u dialog text">
-              <span class="people dialog">{{post.content}}</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-</article>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+</head>
+<body>
+--- layout: default ---
+<div id="sites"></div>
+<div id="members"></div>
+<div id="close"></div>
+<span class="icon fa fa-users"></span>
+<h2>Skuld<span class="highlight">Net</span> Network</h2>
+<div class="sit"><a id="sitpage" class="pages" href="javascript:parent.onLocalLink('sites',window.frameElement)">SITES
+</a></div>
+<div class="mem"><a class="pages" href="javascript:parent.onLocalLink('members',window.frameElement)">PEOPLE
+</a></div>
+{% for post in site.categories.labs %}
+<div class="row posts lab">
+<div class="3u"><a href="javascript:parent.onLocalLink('\x7b\x7bpost.title\x7d\x7d',window.frameElement)"><span class="image logo lab"><img alt=""></span>
+<h2 class="lab">{{post.title}}</h2>
+<span>{{post.location}}</span> </a></div>
+<div class="9u">
+<div class="row posts lab"><a href="javascript:parent.onLocalLink('\x7b\x7bpost.title\x7d\x7d',window.frameElement)"><span class="lab">{{post.excerpt}}</span>
+<h3>READ MORE </h3>
+</a></div>
+{% capture labid %}{{post.code}}{% endcapture %}
+<div class="row posts lab">{% for person in site.categories[labid] %}
+<div class="2u small persons"><a href="javascript:parent.onLocalLink('\x7b\x7bperson.title\x7d\x7d',window.frameElement)"><span class="image people lab"><img alt=""></span>
+<h2 class="people lab">{{person.name}}<br>
+{{person.surname}}</h2>
+</a></div>
+{% endfor %} </div>
+</div>
+</div>
+{% endfor %}
+<div class="row posts people" style="margin-bottom:3em">
+<h2 style="text-align:center; font-weight:bold">CHAIR</h2>
+{% for post in site.categories.chair %}
+<div class="4u"><a href="javascript:parent.onLocalLink('\x7b\x7bpost.title\x7d\x7d',window.frameElement)"><span class="image people"><img alt=""></span>
+<h2 class="people">{{post.name}}<br>
+{{post.surname}}</h2>
+<span class="people">{{post.excerpt}}</span> </a></div>
+{% endfor %} </div>
+<div class="row posts people">
+<h2 style="text-align:center; font-weight:bold; width:100%">MEMBERS</h2>
+{% assign sortedPosts = site.categories.member | sort: 'surname' %} {% for post in sortedPosts %}
+<div class="4u"><a href="javascript:parent.onLocalLink('\x7b\x7bpost.title\x7d\x7d',window.frameElement)"><span class="image people"><img alt=""></span>
+<h2 class="people">{{post.name}}<br>
+{{post.surname}}</h2>
+<span class="people">{{post.excerpt}}</span> </a></div>
+{% endfor %} </div>
+{% for post in site.categories.people %}
+<div id="{{post.title}}" class="modalDialog">
+<div class="container"><a href="javascript:parent.onLocalLink('sites',window.frameElement)" title="Close" class="close">X</a>
+<div class="row posts people dialog">
+<div class="4u dialog"><span class="image people dialog"><img alt=""></span>
+<h2 class="people dialog">{{post.name}}<br>
+{{post.surname}}</h2>
+<div class="icons">{% if post.mail %} <a href="redir.aspx?C=s__yNwIjEz2kCpvsghXGCEv1UtfvPtUFaOORh6IroJH6XpqNmLXVCA..&amp;URL=mailto%3a%7b%7bpost.mail%7d%7d" class="icon circle fa fa-envelope-o" target="_blank">
+</a>{% endif %} {% if post.website %} <a href="UrlBlockedError.aspx" class="icon circle fa fa-globe" target="_blank">
+</a>{% endif %} {% if post.Twitter %} <a href="UrlBlockedError.aspx" class="icon circle fa fa-twitter" target="_blank">
+</a>{% endif %} {% if post.researchgate %} <a href="UrlBlockedError.aspx" class="icon circle ai ai-researchgate" target="_blank">
+</a>{% endif %} {% if post.scholar %} <a href="UrlBlockedError.aspx" class="icon circle ai ai-google-scholar ai-4x" target="_blank">
+</a>{% endif %} </div>
+</div>
+<div class="8u dialog text"><span class="people dialog">{{post.content}}</span> </div>
+</div>
+</div>
+</div>
+{% endfor %}
+</body>
+</html>
