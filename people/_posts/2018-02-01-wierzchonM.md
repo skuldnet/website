@@ -4,13 +4,14 @@ title: "Michał Wierzchoń"
 name: "Michał "
 surname: Wierzchoń
 date: 2018-01-06 09:00:00
-categories: people
+categories: people member
 category: jagiellonian
 image-file: /images/people/mwierzchon.png
 mail: michal.wierzchon@uj.edu.pl
 website: http://www.psychologia.uj.edu.pl/michal-wierzchon
 twitter:
 researchgate: https://www.researchgate.net/profile/Michat_Wierzchon
+scholar: https://scholar.google.com/citations?user=Vge15BIAAAAJ&hl=en&oi=ao
 ---
 
 Associate Professor at the Institute of Psychology, Jagiellonian University. Founder of the C-Lab.
