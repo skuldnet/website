@@ -13,5 +13,8 @@ twitter:
 researchgate: "https://www.researchgate.net/profile/Sune_Jespersen"
 scholar: https://scholar.google.com/citations?user=0Er3tuIAAAAJ&hl=en
 ---
+Professor at Aarhus University
 
-details coming soon
+Head of [Neurophysics](http://cfin.au.dk/cfinmindlab-labs-research-groups/neurophysics/) at the Center of Functionally Integrative Neuroscience at Aarhus University.
+
+Research interests: MRI based microstructural mapping of the brain, diffusion MRI, statistical physics
