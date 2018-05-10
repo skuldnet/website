@@ -37,7 +37,7 @@ layout: default
     {% for post in site.categories.labs %}
         <div class="row posts lab">
           <div class="3u">
-            <a href="#{{post.title}}">
+            <a href="{{post.url}}">
               <span class="image logo lab"><img src="{{post.image-file}}" alt=""></span>
               <h2 class="lab">{{post.title}}</h2>
               <span>{{post.location}}</span>
@@ -46,7 +46,7 @@ layout: default
 
           <div class="9u">
             <div class="row posts lab">
-              <a href="#{{post.title}}">
+              <a href="{{post.url}}">
                 <span class="lab">{{post.excerpt}}</span>
                 <h3> READ MORE </h3>
               </a>
