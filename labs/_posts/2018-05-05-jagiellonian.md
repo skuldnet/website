@@ -9,4 +9,6 @@ image-file: /images/sites/jagiellonian.png
 mail:
 website: "http://www.psychologia.uj.edu.pl/en_GB/start"
 ---
-[Institute of Psychology](http://www.psychologia.uj.edu.pl/en_GB/start), Jagiellonian University in Kraków, Poland.
+Institute of Psychology, Jagiellonian University in Kraków, Poland.
+
+[Website](http://www.psychologia.uj.edu.pl/en_GB/start)
