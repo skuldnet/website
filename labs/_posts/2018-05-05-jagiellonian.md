@@ -1,6 +1,6 @@
 ---
 layout: post
-title:
+title: Institute of Psychology, Jagiellonian University
 location:
 date: 2018-05-05 09:00:00
 category: laboratories
