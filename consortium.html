@@ -76,7 +76,7 @@ layout: default
     <section class="wrapper style3 container special" id="mempage">
 
       <div class="row posts people" style="flex-flow: column; align-items: center; margin-bottom: 3em;">
-        <h2 style="text-align: center; font-weight: bold;">CHAIR</h2>
+        <h2 style="text-align: center; font-weight: bold;">DIRECTOR</h2>
         {% for post in site.categories.chair %}
         <div class="4u">
           <a href="#{{post.title}}">
@@ -89,7 +89,7 @@ layout: default
       </div>
 
       <div class="row posts people">
-        <h2 style="text-align: center; font-weight: bold; width: 100%">MEMBERS</h2>
+        <h2 style="text-align: center; font-weight: bold; width: 100%">PRINCIPAL AND INDEPENDENT</h2>
         {% assign sortedPosts = site.categories.member | sort: 'surname' %}
         {% for post in sortedPosts %}
         <div class="4u">
