@@ -11,7 +11,7 @@ mail: hanseisk@rm.dk
 website: "http://pure.au.dk/portal/en/persons/id(9738d7c8-342e-4962-b8fd-b66ef6dc7d31).html"
 twitter:
 researchgate:
-scholar:
+scholar: "https://scholar.google.com/citations?user=NtQg3Y0AAAAJ&hl=en&oi=ao"
 ---
 Professor, MD, DmSC, at Aarhus University and Aarhus University Hospital.
 
