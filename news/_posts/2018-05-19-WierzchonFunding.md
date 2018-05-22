@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: newspost
 title:  "SkuldNet receives funding!"
 date:   2018-05-19 10:00:00
 image: /images/tree20.jpg

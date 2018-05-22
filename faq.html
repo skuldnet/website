@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+
+<article id="main">
+    <header class="special container">
+        <span class="icon fa fa-newspaper-o"></span>
+        <h2>Skuld<span class="highlight">Net</span> FAQ</h2>
+    </header>
+    <section class="wrapper style4 container">
+      {% assign postsByOrder = site.categories.faq | sort: "order" %}
+      {% for question in postsByOrder %}
+        <div class="row question">
+          <div class="12u">
+            <a href="#ans{{question.order}}" class="link">
+              <h3 class="faqtitle"><span class="highlight">Q:</span> {{question.title}}</h3>
+            </a>
+            <div id="ans{{question.order}}" class="answer">
+              {{question.content}}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+
+</article>

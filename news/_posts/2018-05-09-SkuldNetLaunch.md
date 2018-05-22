@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: newspost
 title:  "SkuldNet Launches!"
 date:   2018-05-08 10:00:00
 image: /images/tree20.jpg

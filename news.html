@@ -12,8 +12,8 @@ layout: default
       {% assign postsByYearMonth = site.categories.news | group_by_exp:"news", "news.date | date: '%Y'"  %}
       {% for yearMonth in postsByYearMonth %}
         <h3>{{ yearMonth.name }}</h3>
+        {% for news in yearMonth.items %}
         <div class="row news">
-          {% for news in yearMonth.items %}
           <div class="4u">
             <a href="{{news.url}}" class="image featured">
               <div class="gallery-image">
@@ -24,10 +24,11 @@ layout: default
           <div class="8u">
             <a href="{{news.url}}" class="newslink">
               <h3 class="newstitle">{{news.title}}</h3>
+              <span class="newsdate">{{news.date | date_to_string}}</span>
               {{news.excerpt}}
             </a>
           </div>
-          {% endfor %}
+        {% endfor %}
         </div>
       {% endfor %}
     </section>
