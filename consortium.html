@@ -33,7 +33,8 @@ layout: default
 
     <section class="wrapper style3 container special" id="labpage">
 
-    {% for post in site.categories.labs %}
+  {% assign sortedLabs = site.categories.labs | sort: 'title' %}
+    {% for post in sortedLabs %}
         <div class="row posts lab">
           <div class="3u">
             <a href="{{post.url}}">
