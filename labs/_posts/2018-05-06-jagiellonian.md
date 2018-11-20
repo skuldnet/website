@@ -5,6 +5,7 @@ location:
 date: 2018-05-05 09:00:00
 category: laboratories
 code: jagiellonian
+sortname: Jagiellonian University
 image-file: /images/sites/jagiellonian.png
 mail:
 website: "http://www.psychologia.uj.edu.pl/en_GB/start"

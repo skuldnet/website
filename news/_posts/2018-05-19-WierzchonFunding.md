@@ -1,8 +1,8 @@
 ---
 layout: newspost
 title:  "SkuldNet receives funding!"
-date:   2018-05-19 10:00:00
-image: /images/tree20.jpg
+date:   2018-05-22 10:00:00
+image: /images/people/mwierzchon.png
 ---
 SkuldNet principal investigator Dr Hab. Michał Wierzchoń has received an OPUS grant from the National Science Center Poland to fund SkuldNet activities based at the Institute of Psychology, Jagiellonian University, Kraków, Poland.
 
