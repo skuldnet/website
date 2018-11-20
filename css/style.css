@@ -1662,3 +1662,11 @@ h2.people.lab {
 .image.network span {
   color: rgba(124, 128, 129, 1);
 }
+
+/* ABOUT */
+
+.about img{
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+}
