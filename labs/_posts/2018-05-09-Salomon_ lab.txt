@@ -1,0 +1,15 @@
+---
+layout: post
+title: The lab of Consciousness and Self, Bar Ilan University
+location:
+date: 2018-05-05 09:00:00
+category: laboratories
+code: Gonda
+sortname: Bar Ilan University
+image-file: /images/sites/Gonda.png
+mail:
+website: "https://www.salomonlab.org/"
+---
+The lab of Consciousness and Self, Gonda Brain Research Center, Bar Ilan University, Tel-Aviv, Israel.
+
+[Website](https://www.salomonlab.org/)
