@@ -8,4 +8,4 @@ SkuldNet principal investigators Professor Makiko Yamada and Dr Ryota Kanai have
 
 NIRS researchers aim to build MRI based neuroarchitectural maps for at least 200 healthy participants and link these maps to individual differences in a wide range of consciousness related phenomena, including confidence/self-confidence, metacognition, and mental imagery as well as the influence of attention, working-memory, and prediction errors on conscious perception and confidence.
 
-The SkuldNet research activities have been made possible by local agreements with NIRS, and it is conducted in collaboration with other SkuldNet members.
+The SkuldNet research activities have been made possible by local agreements with NIRS and sizeable joint research funding from Mr. Hiroya Hanafusa (CEO of ALAN・Products, Inc., Executive officer of UNITED, Inc., Japan). It is conducted in collaboration with other SkuldNet members.
